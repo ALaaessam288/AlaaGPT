@@ -1,0 +1,95 @@
+#main-container
+{
+    display: flex;
+    background-color: rgb(49, 19, 129);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction:column;
+
+}
+body{
+    margin: 0;
+color: white;
+direction: ltr;
+font-family: 'Shantell Sans', cursive;}
+#main-title
+{
+    font-size: 100px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+#main-content{
+    display: flex ; 
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 239, 239);
+    height: 200px;
+    width: 700px;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 15px rgba(0, 0,  0, 0.3);
+    font-family: 'Shantell Sans', cursive;
+}
+#word-input
+{
+    border: none;
+    font-size: 25px;
+    border-radius: 30px;
+    text-indent: 5px;
+    width: 500px;
+    height: 50%;
+    padding: 0px 20px;
+    font-family: 'Shantell Sans', cursive;
+    white-space: pre-line;
+    word-wrap: break-word;
+    
+}
+#submit-btn
+{
+    border: none;
+    border-radius: 100px;
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin: 0px 10px;
+    align-items: center;
+    width: 130PX;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Shantell Sans', cursive;
+
+
+
+
+
+
+}
+#submit-btn:hover
+{
+    background-color: rgb(26, 26, 97);
+
+    transition: all 0.3s;
+
+}
+#reply-content
+{
+    display: flex ;
+    font-size: 25px; 
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 239, 239);
+    height: 400px;
+    width: 700px;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 15px rgba(0, 0,  0, 0.3);
+    color: black;
+}
